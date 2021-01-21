@@ -1,0 +1,699 @@
+.logo {
+  margin-left: 525px;
+  font-family: "Caveat", cursive;
+  font-size: 5rem;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.link3 {
+  margin-left: 460px;
+  font-family: "Caveat", cursive;
+  color: black;
+}
+.link {
+  margin-right: 30px;
+  text-decoration: black;
+}
+.my-nav {
+  position: absolute;
+  z-index: 15;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+.my-carousel {
+  position: absolute;
+}
+
+.value1 {
+  z-index: 10;
+  position: absolute;
+  top: 190px;
+  left: 190px;
+}
+.p140min {
+  z-index: 11;
+  position: absolute;
+  top: 180px;
+  left: 180px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+.p140off {
+  z-index: 11;
+  position: absolute;
+  top: 440px;
+  left: 210px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+.p2text {
+  z-index: 11;
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+/* .imgborder {
+  width: 200px;
+  height: 300px;
+  border: 2px solid;
+} */
+.exgirl1 {
+  display: block;
+  width: 380px;
+  height: 370px;
+  /* border: 2px solid; */
+  border-radius: 50px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-left: 70px;
+}
+.exmen1 {
+  display: block;
+  width: 380px;
+  height: 370px;
+  /* border: 2px solid; */
+  border-radius: 50px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-left: 50px;
+}
+.exgirl1:hover {
+  transform: scale(1.1);
+  /* border: 2px solid lightblue; */
+  box-shadow: 20 30px 40px rgba(8, 8, 8, 0.25), 20 30px 30px rgba(8, 8, 8, 0.22);
+}
+.exmen1:hover {
+  transform: scale(1.1);
+  /* border: 2px solid lightblue; */
+  box-shadow: 20 30px 40px rgba(10, 10, 10, 0.25),
+    20 30px 30px rgba(10, 10, 10, 0.22);
+}
+.gender {
+  margin-left: 180px;
+  margin-top: 20px;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  text-shadow: 1px 1px lightgreen;
+}
+.bestseller {
+  margin-top: 30px;
+  border: 2px solid black;
+}
+.bestseller {
+  text-align: center;
+  border: 0ch;
+
+  font-family: "Caveat", cursive;
+}
+.old-price {
+  color: grey;
+  text-decoration: line-through;
+}
+.special-price {
+  font-family: cursive;
+}
+.price-percentage {
+  color: rgb(255, 115, 0);
+}
+.btn {
+  margin-left: 30px;
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 66%;
+}
+.cards {
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 69%;
+}
+.cards:hover {
+  border: 2px solid blue;
+}
+.cardd {
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 75%;
+}
+.cardd:hover {
+  border: 2px solid blue;
+}
+.card-text {
+  margin: 0;
+  padding: 0;
+}
+.card:hover {
+  border: 2px solid blue;
+}
+/* ----------------------foooooooooooooootttttttttttteeeeeeerrrrrrrrrrrrrrrrrrrrrrr */
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #d3d2d2;
+  width: 100%;
+}
+.site-footer hr {
+  border-top-color: rgb(230, 230, 230);
+  opacity: 0.5;
+}
+.text-justify {
+  color: #d3d2d2;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #d3d2d2;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #d3d2d2;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+/* ---------------------Headderrrrr--------------------- */
+.brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+.brand:hover {
+  color: gold;
+}
+/* -------------------  log in page------------------------ */
+.signin {
+  margin-left: 250px;
+  margin-top: 30px;
+}
+.button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.logininput {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+
+  margin-top: 10px;
+  width: 100%;
+}
+
+.containers {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.containers.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.containers.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+@keyframes show {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.containers.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+.overlay {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.containers.right-panel-active .overlay {
+  transform: translateX(50%);
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+  transform: translateX(-20%);
+}
+
+.containers.right-panel-active .overlay-left {
+  transform: translateX(0);
+}
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.containers.right-panel-active .overlay-right {
+  transform: translateX(20%);
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+/* ---------------------------------------women pageeee-------------------------- */
+.topbanner1 {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 420px;
+  width: 1200px;
+  position: relative;
+}
+.topabanner {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 420px;
+  width: 1200px;
+}
+.topbannerm1 {
+  height: 420px;
+  width: 90%;
+  margin-left: 60px;
+}
+.topbannerm {
+  height: 420px;
+}
+.life {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  top: 90px;
+  left: 430px;
+
+  font-weight: 900;
+  font-size: 2rem;
+}
+.bwg {
+  width: 250px;
+  height: 400px;
+}
+.navbar-nav > li > a {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.navbar {
+  min-height: 20px !important;
+}
+.fas {
+  font-size: 20px;
+}
+.fas:hover {
+  color: gold;
+}
+
+.firstrowmenlowheight {
+  height: 317px;
+}
+/* --------------------------display paggggggggge------------------------------- */
+
+.dpicard {
+  width: 200px;
+  height: 350px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.dpimg1 {
+  margin-left: 40px;
+}
+.dpimg2 {
+  margin-left: 20px;
+}
+.name {
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: underline;
+  text-decoration-color: #d3d2d2;
+  font-family: "Caveat", cursive;
+}
+.price {
+  margin-left: 40px;
+  margin-top: 20px;
+  text-decoration: underline;
+  text-decoration-color: #d3d2d2;
+}
+.tax {
+  color: darkgreen;
+  font-size: small;
+}
+.aboutproduct {
+  margin-left: 35px;
+}
+.sizetext {
+  font-family: "Caveat", cursive;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.sizepng {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: darkgray solid;
+}
+.sizepng:hover {
+  border: steelblue solid;
+}
+.sizes {
+  margin-left: 55px;
+}
+.checkout {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.cart-row {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.cart-header {
+  font-size: 1.5rem;
+  font-family: "Dancing Script";
+  margin-left: 40px;
+  text-decoration: underline;
+  text-decoration-color: #d3d2d2;
+  font-weight: 700;
+}
+.cartimg {
+  widows: 200px;
+  height: 80px;
+  margin-left: 20px;
+}
+.cartprice {
+  font-size: 1.5rem;
+  font-family: "Dancing Script";
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.quantities {
+  font-size: 1.5rem;
+  font-family: "Dancing Script";
+  margin-left: 80px;
+  width: 40px;
+  margin-top: 20px;
+}
+.remove {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.total {
+  font-size: 1.9rem;
+  font-family: "Dancing Script";
+  margin-left: 300px;
+}
+.totalprice {
+  margin-left: 30px;
+  font-size: 1.9rem;
+  font-family: "Dancing Script";
+}
+.cartno {
+  background-color: #b60018;
+  border-radius: 100%;
+  margin-left: 5px;
+
+  padding: 5px;
+}
+
+.thankyou {
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-family: "dancing script";
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 1200;
+}
+.checkoutform {
+  margin-top: 50px;
+}
+.form-input {
+  border-radius: 5em;
+  font-size: 1.5rem;
+  width: 60%;
+
+  border: black solid;
+}
+.form-text {
+  font-family: cursive;
+  margin-top: 40px;
+}
+.order {
+  margin-left: 500px;
+}
+.checkoutbtn {
+  margin-left: 250px;
+}
+.finalthanks {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  text-shadow: 1px 1px#b60018;
+}
+.willdelivery {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  text-shadow: 1px 1px pink;
+}
+address {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+<%- include('header') %>
+<div class="cart-row">
+  <span class="cart-item cart-header cart-column">ITEM </span>
+  <span class="cart-price cart-header cart-column">PRICE </span>
+  <span class="cart-quantity cart-header cart-column">QUANTITY </span>
+  <hr />
+  <div class="delete">
+  <% data.forEach((h)=>{ %>
+  <div class="row">    
+    <div class="column">
+         <img class="cartimg" src="<%= h.imageadd1 %> " alt="">
+    </div>
+    <div class="column">
+         <h3 class="cartprice"><%= h.price %> </h3>
+   </div>
+    <div class="column">
+          <input class="quantities" type="number" value="1" />
+    </div>
+    <div class="column">
+       <button type="button" class="remove btn btn-outline-danger">Remove</button>
+    </div>
+    </div>
+    <hr />
+    <% }); %>
+  </div>
+  <div class="row">
+    <div class="column"><h4 class="total">Total-Rs</h4></div>
+    <div class="column">
+      <h4 class="totalprice">Rs1000</h4>
+      </div>
+    </div>
+    <a href="/checkout">
+    <button class="checkoutbtn button btn-primary">
+      checkout        
+   </button></a>
+  </div>
+  <script src="js/cart.js" type="text/javascript"></script>
+  <%- include('footer') %>
+  <!-- <div class="cart-quantity cart-column">
+  
+</div> -->
+</div>

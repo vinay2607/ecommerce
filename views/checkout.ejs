@@ -1,0 +1,66 @@
+<%- include('header') %> <%var name%>
+<div class="addresspage">
+  <h2 class="thankyou">
+    Thank you <%= name %>,<br />
+    You will look beautyful in this Dress
+  </h2>
+  <div class="checkoutform">
+  <form class="addresspage form" method="post" action="/">
+    
+      <p class="form-text">Address</p>
+      
+        <input
+          class="form-input"
+          name="Address"
+          type="text"
+          placeholder="Address"
+          
+          required
+        />
+        <p class="form-text">State</p>
+       
+          <input
+            class="form-input"
+            name="State"
+            type="text"
+            placeholder="State"
+            
+            required
+          />
+        
+        <p class="form-text">City</p>
+        
+          <input
+            class="form-input"
+            name="city"
+            type="text"
+            placeholder="City"
+            aria-label=""
+            required
+          />
+        
+        <p class="form-text">Pin code</p>
+        
+          <input
+            class="form-input"
+            name="pin"
+            type="number"
+            placeholder="pin code"
+            aria-label=""
+            required
+          />
+          </div>
+        </div>
+      
+    
+    <h2 class="thankyou">Total-Rs<span class="pricedisplay"></span></h2>
+    <h3 class="thankyou">Payment will be collect at a time of delivery</h3>
+        <button  type="submit" class="order button btn-primary">
+           Order        
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="js/cart.js" type="text/javascript"></script>
+<%- include('footer') %>

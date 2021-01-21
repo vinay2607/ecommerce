@@ -1,0 +1,56 @@
+<%- include('header') %> <% var no %>
+<div class="row">
+  <div class="column">
+    <div class="dpimg1 dpicard cardd" style="width: 18rem">
+      <img class="card-img-top" src="<%= img %>" alt="pic2" />
+    </div>
+  </div>
+  <div class="column">
+    <div class="dpimg2 dpicard card" style="width: 18rem">
+      <img class="card-img-top" src="<%= img1 %>" alt="pic1" />
+    </div>
+  </div>
+  <div class="column">
+    <h2 class="name"><%= itemname %></h2>
+
+    <h4 class="price">
+      <span class="special-price">Rs 750</span>
+      <span class="old-price">Rs 1500</span>
+      <span class="price-percentage">Discount-(-50%)</span><br />
+      <span class="tax">Inclusive of all taxes</span>
+    </h4>
+    <p class="aboutproduct">
+      100% Original Products<br />
+      Free Delivery on order above Rs. 799<br />
+      Pay on delivery might be available<br />
+      Easy 30 days returns and exchanges<br />
+      Try & Buy might be available
+    </p>
+    <h5 class="sizetext">Size available</h5>
+
+    <div class="row">
+      <div class="column">
+        <img class="sizes sizepng" src="/image/png/s.png" alt="small" />
+      </div>
+      <div class="column">
+        <img class="sizepng" src="/image/png/m.png" alt="small" />
+      </div>
+      <div class="column">
+        <img class="sizepng" src="/image/png/l.png" alt="small" />
+      </div>
+    </div>
+    <div class="checkout">
+      <a href="/cart/c/<%= no %>">
+        <button type="button" class="btn btn-outline-primary">
+          <i class="fas fa-shopping-cart"></i> Add to cart
+        </button></a
+      >
+      <button type="button" class="btn btn-outline-warning">
+        <i class="fas fa-check-circle"></i>
+        Add to card and checkout
+      </button>
+    </div>
+  </div>
+</div>
+
+<%- include('footer') %>
